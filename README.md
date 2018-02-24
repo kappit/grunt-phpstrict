@@ -34,4 +34,4 @@ grunt.initConfig({
 ```
 
 ## Release History
-_(Nothing yet)_
+2018-02-24: v0.1.0
