@@ -37,3 +37,5 @@ grunt.initConfig({
 2018-02-24: v0.1.0: Initial release
 
 2018-02-24: v0.1.2: Fix: skips __construct() AND __destruct() methods
+
+2018-02-24: v0.1.3: Addtion: produces a warning and exists grunt upon missing parameter type or return type

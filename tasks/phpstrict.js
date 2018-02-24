@@ -31,6 +31,7 @@ function checkParameterTypes(filePath, funcs) {
       var funcName = func.split('(');
 
       console.log("!!! Parameter type is missing for function '" + funcName[0] + "'  in file: '" + filePath + "'");
+      process.exit(code=6);
      }
     }
    }
@@ -51,6 +52,7 @@ function checkReturnTypes(filePath, funcs) {
    var funcName = func.split('(');
 
    console.log("!!! Return type is missing for function '" + funcName[0] + "' in file: '" + filePath + "'");
+   process.exit(code=6);
   }
  }, function(err) {
   throw err;
