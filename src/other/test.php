@@ -1,7 +1,11 @@
 <?php
 
-function sum (... $ints) {
-  return array_sum($ints);
+function person ($name = 'doe', string $address) {
+  return $name . ' ' . $address;
 }
 
-echo sum(1, 2, 3);
+echo person('john');
+
+if(2 === 1){
+  echo 'not';
+}

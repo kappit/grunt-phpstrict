@@ -1,6 +1,9 @@
 # grunt-phpstrict
 
-> Strict PHP development
+> Strict PHP development'
+
+## Description
+This plugin helps you in the development process, when using PHP type hints. It warns you if parameter types or return types are missing and enforces you to employ a strict programming. 
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`

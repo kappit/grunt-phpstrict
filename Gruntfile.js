@@ -10,17 +10,17 @@
 
 module.exports = function(grunt) {
 
-  // Project configuration.
-  grunt.initConfig({
+ // Project configuration.
+ grunt.initConfig({
 
-    // Configuration to be run.
-    phpstrict: {
-      files : 'src/**/*.php'
-    }
+  // Configuration to be run.
+  phpstrict: {
+   files: 'src/**/*.php'
+  }
 
-  });
-  
-  grunt.loadTasks('tasks');
-  grunt.registerTask('default', ['phpstrict']);
+ });
+
+ grunt.loadTasks('tasks');
+ grunt.registerTask('default', ['phpstrict']);
 
 };
