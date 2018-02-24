@@ -63,7 +63,11 @@ function getFunctions(filePath) {
   var matches = [];
 
   dataFilterAllWhiteSpace.replace(/function(.*?){/g, function(match0, match1) {
-   matches.push(match1);
+   var funcArray = match1.split('(');
+   
+   if(funcArray[0] !== '__construct' && funcArray[0] !== '__destruct'){
+    matches.push(match1);
+   }
   });
 
   checkParameterTypes(filePath, matches);
