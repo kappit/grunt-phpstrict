@@ -1,0 +1,39 @@
+{
+  "name": "grunt-phpstrict",
+  "description": "Strict PHP development",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kappit/grunt-phpstrict",
+  "author": {
+    "name": "Kasper Hansen",
+    "email": "kasper.h90@outlook.dk",
+    "url": "https://kappit.dk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kappit/grunt-phpstrict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kappit/grunt-phpstrict/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kappit/grunt-phpstrict/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
