@@ -21,7 +21,7 @@ var grunt = require('grunt');
     test.doesNotThrow(block, [error], [message])
     test.ifError(value)
 */
-
+/*
 exports.phpstrict = {
   setUp: function(done) {
     // setup here if necessary
@@ -46,3 +46,4 @@ exports.phpstrict = {
     test.done();
   },
 };
+*/
