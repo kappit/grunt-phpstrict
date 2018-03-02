@@ -29,7 +29,7 @@ In your project's Gruntfile, add a section named `phpstrict` to the data object 
 grunt.initConfig({
   phpstrict: {
     files: // Target a specific directory containing relevant .php files; fx: 'src/**/*.php'
-  },
+  }
 });
 ```
 
