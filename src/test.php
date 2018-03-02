@@ -1,10 +1,8 @@
 <?php
 
-function sum (... $ints) : int {
+function sum (int ... $ints) : int {
   return array_sum($ints);
 }
-
-echo sum(1, 2, 3);
 
 function blob () {
   return null;
