@@ -18,6 +18,10 @@ function checkParameterTypes(func, funcName, filePath) {
         for (var i in func) {
             var parameter = func[i].split('$');
             var parametersFilter = parameter.filter(function(e) {
+                if(e[0] === '&') {
+                  return e.substring(1);
+                }
+                
                 return e;
             });
             if (parametersFilter.length !== 2) {

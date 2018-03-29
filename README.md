@@ -41,3 +41,5 @@ grunt.initConfig({
 2018-02-24: v0.1.3: Addtion: produces a warning and exists grunt upon missing parameter type or return type
 
 2018-02-24: v0.1.5: Bug fixes
+
+2018-02-24: v0.1.6: Fix: now validates referenced parameters
