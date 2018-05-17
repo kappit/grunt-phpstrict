@@ -38,8 +38,10 @@ grunt.initConfig({
 
 2018-02-24: v0.1.2: Fix: skips __construct() AND __destruct() methods
 
-2018-02-24: v0.1.3: Addtion: produces a warning and exists grunt upon missing parameter type or return type
+2018-02-25: v0.1.3: Addtion: produces a warning and exists grunt upon missing parameter type or return type
 
-2018-02-24: v0.1.5: Bug fixes
+2018-02-28: v0.1.5: Bug fixes
 
-2018-02-24: v0.1.6: Fix: now validates referenced parameters
+2018-03-15: v0.1.6: Fix: now validates referenced parameters
+
+2018-05-17: v0.1.7: Fix: now skips the 'use' keyword
