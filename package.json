@@ -1,7 +1,7 @@
 {
   "name": "grunt-phpstrict",
   "description": "Strict PHP development",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "homepage": "https://github.com/kappit/grunt-phpstrict",
   "author": {
     "name": "Kasper Hansen",
