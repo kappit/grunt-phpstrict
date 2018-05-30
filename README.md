@@ -3,7 +3,7 @@
 > Strict PHP development
 
 ## Description
-This plugin helps you in the development process, when using PHP type hints. It warns you if parameter types or return types are missing and enforces you to employ a strict programming. 
+This plugin helps you in the development process, when using PHP type hints. It warns you if parameter types or return types are missing and enforces you to employ a strict programming by linting your code. 
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
@@ -36,7 +36,7 @@ grunt.initConfig({
 ## Release History
 2018-02-24: v0.1.0: Initial release
 
-2018-02-24: v0.1.2: Fix: skips __construct() AND __destruct() methods
+2018-02-24: v0.1.2: Fix: does no longer require the __construct() AND __destruct() magic methods to have a return type
 
 2018-02-25: v0.1.3: Addtion: produces a warning and exists grunt upon missing parameter type or return type
 
@@ -45,3 +45,5 @@ grunt.initConfig({
 2018-03-15: v0.1.6: Fix: now validates referenced parameters
 
 2018-05-17: v0.1.7: Fix: now skips the 'use' keyword
+
+2018-05-30: v0.1.8: Fix: does no longer require the __call() magic method to have a return type

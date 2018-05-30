@@ -42,7 +42,8 @@ function checkReturnType(func, funcName, filePath) {
 
     if (parts[1] === undefined) {
         if (funcName.trim() !== '__construct'
-                && funcName.trim() !== '__destruct') {
+                && funcName.trim() !== '__destruct'
+                && funcName.trim() !== '__call') {
             console.log("!!! Return type is missing for function '" + funcName
                     + ' ' + func + "' in file: '" + filePath + "'");
             process.exit(code = 6);
@@ -56,7 +57,6 @@ function processContent(content, filePath) {
 
     while ((match = regEx.exec(contentFilterNewLines)) !== null) {
         var func = match[1].substring(match[1].indexOf('(')).replace(/\./g, '');
-        ;
         var funcName = match[1].split('(')[0].trim();
 
         checkParameterTypes(func.replace(/\s/g, ''), funcName, filePath);
